@@ -1,0 +1,82 @@
+.laukums {
+    max-width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    float: right;
+  }
+  span{
+    font-weight: bold;
+    padding: 5px;
+  }
+  .teksts{
+    padding: 5px 10px;
+      margin: 5px;
+    background: salmon;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, .6),
+                  inset -2px -2px 3px rgba(255, 255, 255, .6);
+  }
+  .pogas{
+    max-width: 50%;
+    float: left;
+  }
+  h1{
+  color: #EE872A;
+  text-align: center;
+  font-family: sans-serif;;
+  }
+  .poga{
+    text-transform: uppercase;
+      background: #EE872A;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                  inset -2px -2px 3px rgba(0, 0, 0, .6);
+  }
+  .poga:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  .spele-karte:hover{
+    background-color: powderblue;
+    transition: background-color .5s;
+  }
+  .spele-karte {
+    background: #3d3b3b;
+    padding: 8px;
+    text-align: center;
+    border: 4px solid #EE872A;
+      cursor: pointer;
+      border-radius: 15px;
+      box-shadow: 0 1px 5px rgba(0,0,0,.5);
+    background: #B1B1B1;
+  }
+  .spele-karte.open {
+    background: grey;
+    transform:scale(.90);
+    transition: transform .9s;
+  }
+  .spele-karte.ok {
+    background: grey;
+  }
+  
+  html, body {
+    
+    margin:25px;
+    padding: 0;
+    background-color: grey;
+  }
+  © 2022 GitHub, Inc.
+  Terms
+  Privacy
+  Security
+  Status
+  Docs
+  Contact GitHub
+  Pricing
+  API
+  Training
+  Blog
+  About
+  
